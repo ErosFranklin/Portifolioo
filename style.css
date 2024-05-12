@@ -56,7 +56,7 @@ body{
     position:absolute;
     padding:0 30px;
     transform: translate(0%,-50%);
-    
+    width: 60%;
 }
 .about h1{
     font-size: 2.5em;
