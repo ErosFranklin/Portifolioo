@@ -1,0 +1,49 @@
+/*Typical Device Breakpoint
+----------------------------
+Telas pequenas: ate 600px
+Celular:de 600px ate 750px
+Tablet: 768px ate 993px
+Desktop: 992px ate 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media only screen and (min-width:600px)  and (max-width:750px){
+    .home{
+        height: 100vh;
+    }
+    .about{
+        display:flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        position:absolute;
+        top:50%;
+        left:50%;
+        width: 85%;
+        transform: translate(-50%,50%);
+
+    }
+    .about p{
+        text-align: justify;
+    }
+    .about a{
+        margin-bottom: 100px;
+    }
+    .format-img{
+        position: absolute;
+        top:50%;
+        left:50%;
+        width: 330px;
+        height: 330px;
+        transform: translate(-50%,-50%);
+    }
+    .image img{
+        position:relative;
+        max-width: 500px;
+        max-height: 500px;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+}
