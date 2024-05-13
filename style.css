@@ -124,7 +124,6 @@ body{
 .skill{
     position:relative;
     border: 5px solid var(--color-bold);
-    
     width: 100px;
     max-height: 100px;
     padding:10px;
@@ -192,20 +191,21 @@ body{
     height: 200px;
 }
 .projeto a{
-    font-size:30px;
+    font-size:40px;
     text-decoration: none;
     color:var(--color-text);
 
 }
 .projeto a:hover{
     color:var(--color-bold);
+    cursor:pointer;
     transition: .3s ease;
 }
 .projetos p{
     text-align: justify;
 }
 .projeto:hover{
-    cursor:pointer;
+    
     border-color: var(--text-shadow2);
     box-shadow: 0px 5px 5px var(--text-shadow1);
     transform: scale(1.05);
