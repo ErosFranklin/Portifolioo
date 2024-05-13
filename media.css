@@ -6,7 +6,7 @@ Tablet: 768px ate 993px
 Desktop: 992px ate 1200px
 Grandes telas: acima de 1200px
 */
-@media only screen and (max-width:750px){
+@media only screen and (max-width:768px){
     .home{
         height: 100vh;
     }
