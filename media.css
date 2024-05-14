@@ -7,6 +7,40 @@ Desktop: 992px ate 1200px
 Grandes telas: acima de 1200px
 */
 @media only screen and (max-width:768px){
+    #burguer{
+        display:block;
+        align-items: center;
+        text-align: right;
+        font-size:30px;
+        width:100%;
+        height: 100%;
+        top:0;
+        left:0;
+    }
+    .itens-menu{
+        display:none;
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100vw;
+        height: 100vh;
+        background:var(--color-background);
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap:0;
+        transition: 1s ease-out;
+        pointer-events: none;
+        z-index: 8887;
+    }
+    .menu.ativo .itens-menu{
+        display:flex;
+        pointer-events: all;
+        transition: 1s ease-in;
+    }
+    .menu.ativo #burguer{
+        z-index: 8888;
+    }
     .about{
         display:flex;
         text-align: center;

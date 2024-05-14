@@ -29,6 +29,9 @@ body{
 .tt2{
     color:var(--color-bold);
 }
+#burguer{
+    display:none;
+}
 .itens-menu{
     display:flex;
     list-style: none;
