@@ -7,9 +7,6 @@ Desktop: 992px ate 1200px
 Grandes telas: acima de 1200px
 */
 @media only screen and (max-width:768px){
-    .home{
-        height: 100vh;
-    }
     .about{
         display:flex;
         text-align: center;
@@ -26,8 +23,9 @@ Grandes telas: acima de 1200px
     .about p{
         text-align: justify;
     }
-    .about a{
+    .links a{
         margin-bottom: 100px;
+        font-size: 30px;
     }
     .format-img{
         position: absolute;

@@ -25,6 +25,7 @@ body{
     justify-content: space-between;
     padding:0 30px;
 }
+
 .tt2{
     color:var(--color-bold);
 }
