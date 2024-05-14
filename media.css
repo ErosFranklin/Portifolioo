@@ -9,7 +9,8 @@ Grandes telas: acima de 1200px
 @media only screen and (max-width:768px){
     .menu{
         position:fixed;
-        width: 93vw;
+        width: 90vw;
+        padding:0 30px;
         backdrop-filter: blur(5px);
         z-index: 9999;
     }
@@ -84,6 +85,9 @@ Grandes telas: acima de 1200px
         top:50%;
         left:50%;
         transform: translate(-50%,-50%);
+    }
+    .projetos-container,.skills-professional{
+        top:15%;
     }
     .projetos{
         grid-template-columns: repeat(1,1fr);
