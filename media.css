@@ -77,4 +77,10 @@ Grandes telas: acima de 1200px
         left:50%;
         transform: translate(-50%,-50%);
     }
+    .projetos{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .tools, .skills{
+        grid-template-columns: repeat(3,3fr);
+    }
 }
