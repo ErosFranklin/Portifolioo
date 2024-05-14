@@ -7,6 +7,12 @@ Desktop: 992px ate 1200px
 Grandes telas: acima de 1200px
 */
 @media only screen and (max-width:768px){
+    .menu{
+        position:fixed;
+        width: 93vw;
+        backdrop-filter: blur(5px);
+        z-index: 9999;
+    }
     #burguer{
         display:block;
         align-items: center;
