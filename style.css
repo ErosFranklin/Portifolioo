@@ -74,13 +74,30 @@ body {
 .links a {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 23px;
+  font-size: 30px;
   padding-right: 20px;
+  transition: 0.3s ease-in-out;
 }
 .links a:hover {
-  color: var(--color-bold);
   transform: scale(1.2);
-  transition: 0.3s ease;
+}
+.icone-git:hover{
+  color:#171515;
+  transition: 0.5s ease;
+}
+.icone-linkedin:hover{
+  color:#0077B5;
+  transition: 0.5s ease;
+}
+.icone-insta:hover{
+  background: linear-gradient(to right, #E1306C,  #F77737,#FCAF45,#F56040, #D2297D,#C13584);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s ease;
+}
+.icone-zap:hover{
+  color:#25D366;
+  transition: 0.5s ease;
 }
 
 .format-img {
@@ -130,6 +147,7 @@ body {
   max-height: 100px;
   padding: 10px;
   border-radius: 10px;
+  transition: 0.3s ease-in-out;
 }
 .skill i {
   font-size: 50px;
@@ -138,7 +156,7 @@ body {
   cursor: pointer;
   border-color: var(--text-shadow2);
   box-shadow: 0px 5px 5px var(--text-shadow1);
-  transition: 0.3s ease;
+  
   transform: scale(1.2);
 }
 .tools {
@@ -153,6 +171,7 @@ body {
   max-height: 100px;
   padding: 10px;
   border-radius: 10px;
+  transition: 0.3s ease-in-out;
 }
 .tool i {
   font-size: 50px;
@@ -163,6 +182,26 @@ body {
   box-shadow: 0px 5px 5px var(--text-shadow1);
   transition: 0.3s ease;
   transform: scale(1.2);
+}
+.skill .tooltip-text, .tool .tooltip-text{
+  visibility: hidden;
+  width: 100px; 
+  background-color: #555; 
+  color: #fff; 
+  text-align: center;
+  border-radius: 5px; 
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; 
+  left: 50%;
+  margin-left: -100px; 
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.skill:hover .tooltip-text, .tool:hover .tooltip-text{
+visibility: visible;
+opacity: 1;
 }
 .projetos-container {
   display: flex;
@@ -187,6 +226,7 @@ body {
   width: 400px;
   max-height: 500px;
   border-radius: 10px;
+  transition: 0.3s ease-in-out;
 }
 .projeto img {
   width: 55%;
@@ -196,12 +236,9 @@ body {
   font-size: 40px;
   text-decoration: none;
   color: var(--color-text);
+  transition: .5s ease-in-out;
 }
-.projeto a:hover {
-  color: var(--color-bold);
-  cursor: pointer;
-  transition: 0.3s ease;
-}
+
 .projetos p {
   text-align: justify;
 }
@@ -221,3 +258,5 @@ body {
   width: 100%;
   background-color: var(--text-shadow1);
 }
+
+
