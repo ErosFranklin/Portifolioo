@@ -7,6 +7,7 @@ Desktop: 992px ate 1200px
 Grandes telas: acima de 1200px
 */
 @media only screen and (max-width: 768px) {
+ 
   .menu {
     position: fixed;
     width: 90vw;
@@ -23,6 +24,7 @@ Grandes telas: acima de 1200px
     height: 100%;
     top: 0;
     right: 0;
+    padding:20px;
   }
   .itens-menu {
     display: none;
@@ -86,14 +88,21 @@ Grandes telas: acima de 1200px
     transform: translate(-50%, -50%);
   }
   .projetos-container,
-  .skills-professional {
+  .skills-professional{
     top: 15%;
+    width: 90%;
+    bottom:-30%;
   }
   .projetos {
     grid-template-columns: repeat(1, 1fr);
+    justify-content:center;
+    align-items: center;
   }
   .tools,
   .skills {
-    grid-template-columns: repeat(3, 3fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .projeto{
+    width: 90%;
   }
 }
