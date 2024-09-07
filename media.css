@@ -7,7 +7,9 @@ Desktop: 992px ate 1200px
 Grandes telas: acima de 1200px
 */
 @media only screen and (max-width: 768px) {
- 
+  .pagina-index{
+    overflow: auto;
+  }
   .menu {
     position: fixed;
     width: 90vw;
@@ -87,11 +89,14 @@ Grandes telas: acima de 1200px
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .projetos-container,
+  .projetos-container{
+    top: 15%;
+    width: 90%;
+  }
   .skills-professional{
     top: 15%;
     width: 90%;
-    bottom:-30%;
+    bottom:-50%;
   }
   .projetos {
     grid-template-columns: repeat(1, 1fr);

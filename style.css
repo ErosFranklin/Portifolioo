@@ -9,6 +9,7 @@ body {
   background-color: var(--color-background);
   color: var(--color-text);
   text-shadow: 3px 3px 3px var(--text-shadow1);
+  
 }
 
 :root {
@@ -51,7 +52,9 @@ body {
 }
 
 /* HOME */
-
+.pagina-index{
+  overflow: hidden;
+}
 .about {
   display: flex;
   flex-direction: column;
@@ -123,6 +126,7 @@ body {
   clip-path: circle();
 }
 /* HABILIDADES */
+
 .skills-professional {
   display: flex;
   align-items: center;
@@ -162,7 +166,7 @@ body {
 }
 .tools {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
 }
 .tool {
@@ -204,6 +208,10 @@ body {
 visibility: visible;
 opacity: 1;
 }
+/*  PROJETOS  */
+.pagina-projetos{
+  overflow-x: hidden;
+}
 .projetos-container {
   display: flex;
   left: 50%;
@@ -217,7 +225,7 @@ opacity: 1;
 }
 .projetos {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 .projeto {
