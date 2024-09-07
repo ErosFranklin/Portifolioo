@@ -96,7 +96,7 @@ Grandes telas: acima de 1200px
   .skills-professional{
     top: 15%;
     width: 90%;
-    bottom: -500px;
+    bottom: -300px;
   }
   .projetos {
     grid-template-columns: repeat(1, 1fr);
