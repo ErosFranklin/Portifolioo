@@ -75,11 +75,11 @@ Grandes telas: acima de 1200px
   }
   .format-img {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 30%;
+    left: 10%;
     width: 330px;
     height: 330px;
-    transform: translate(-50%, -50%);
+    transform: translate(-10%, -30%);
   }
   .image img {
     position: relative;
